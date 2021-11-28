@@ -100,7 +100,7 @@ const createReviewTemplate = (reviews) => {
   html.innerHTML = `
             <div class="review-photo-profile">
                 <picture>
-                    <img src="/images/src/public/images/default-400.jpg" alt="consumer photo profile">
+                    <img src="${img}" alt="consumer photo profile">
                 </picture>
             </div>
             <div class="review-body">
