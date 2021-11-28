@@ -19,7 +19,7 @@ exports.config = {
   },
   bootstrap: null,
   mocha: {},
-  name: 'rest-pwa',
+  name: 'laparcom',
   plugins: {
     retryFailedStep: {
       enabled: true
