@@ -8,9 +8,9 @@ const ListRestaurant = {
       <div class="wrapper">
         <div class="hero-image">
           <picture>
-            <source media="(max-width: 600px)" srcset="hero-image-600.jpg">
-            <source media="(max-width: 1000px)" srcset="hero-image-1000.jpg">
-            <img class="gfg hero" src='images/hero-image-1200.jpg' alt="hero laparcom"></img>
+            <source media="(max-width: 600px)" srcset="/images/hero-image-600.jpg">
+            <source media="(max-width: 1000px)" srcset="/images/hero-image-1000.jpg">
+            <img class="gfg hero" src='/images/hero-image-1200.jpg' alt="hero laparcom"></img>
           </picture>
 
           <div class="hero-text">
