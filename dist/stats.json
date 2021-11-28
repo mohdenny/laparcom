@@ -2,9 +2,9 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "43557247cbd778bca834",
-  "time": 9852,
-  "builtAt": 1638117344114,
+  "hash": "af69de5745643bc7d22a",
+  "time": 12429,
+  "builtAt": 1638117866701,
   "publicPath": "",
   "outputPath": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\dist",
   "assetsByChunkName": {
@@ -52,7 +52,7 @@
     },
     {
       "name": "bundle.js",
-      "size": 33356,
+      "size": 33350,
       "chunks": [
         2
       ],
@@ -1019,14 +1019,14 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 46947,
+      "size": 46941,
       "names": [
         "main~29d6ecf2"
       ],
       "files": [
         "bundle.js"
       ],
-      "hash": "73257cd59f84f992fc9d",
+      "hash": "e8ee28083bb38010983f",
       "siblings": [
         0,
         1,
@@ -1042,7 +1042,7 @@
           "name": "./src/scripts/views/templates/template-creator.js",
           "index": 19,
           "index2": 16,
-          "size": 6253,
+          "size": 6249,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1196,7 +1196,7 @@
           "name": "./src/scripts/views/pages/list-restaurant.js",
           "index": 15,
           "index2": 18,
-          "size": 3215,
+          "size": 3213,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1935,9 +1935,9 @@
           "chunks": [
             3
           ],
-          "issuer": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\data\\restaurantdb-source.js",
-          "issuerId": null,
-          "issuerName": "./src/scripts/data/restaurantdb-source.js",
+          "issuer": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\templates\\template-creator.js",
+          "issuerId": 1,
+          "issuerName": "./src/scripts/views/templates/template-creator.js",
           "issuerPath": [
             {
               "id": null,
@@ -1960,9 +1960,9 @@
               "name": "./src/scripts/views/pages/list-restaurant.js"
             },
             {
-              "id": null,
-              "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\data\\restaurantdb-source.js",
-              "name": "./src/scripts/data/restaurantdb-source.js"
+              "id": 1,
+              "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\templates\\template-creator.js",
+              "name": "./src/scripts/views/templates/template-creator.js"
             }
           ],
           "failed": false,
@@ -2200,7 +2200,7 @@
             "default"
           ],
           "optimizationBailout": [
-            "ModuleConcatenation bailout: Cannot concat with ./src/scripts/globals/config.js because of ./src/scripts/views/pages/favorite.js"
+            "ModuleConcatenation bailout: Cannot concat with ./src/scripts/globals/config.js because of ./src/scripts/views/templates/template-creator.js"
           ],
           "depth": 4,
           "modules": [
@@ -3159,9 +3159,9 @@
       "chunks": [
         3
       ],
-      "issuer": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\data\\restaurantdb-source.js",
-      "issuerId": null,
-      "issuerName": "./src/scripts/data/restaurantdb-source.js",
+      "issuer": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\templates\\template-creator.js",
+      "issuerId": 1,
+      "issuerName": "./src/scripts/views/templates/template-creator.js",
       "issuerPath": [
         {
           "id": null,
@@ -3184,9 +3184,9 @@
           "name": "./src/scripts/views/pages/list-restaurant.js"
         },
         {
-          "id": null,
-          "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\data\\restaurantdb-source.js",
-          "name": "./src/scripts/data/restaurantdb-source.js"
+          "id": 1,
+          "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\templates\\template-creator.js",
+          "name": "./src/scripts/views/templates/template-creator.js"
         }
       ],
       "failed": false,
@@ -3345,7 +3345,7 @@
       "name": "./src/scripts/views/templates/template-creator.js",
       "index": 19,
       "index2": 16,
-      "size": 6253,
+      "size": 6249,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -3578,7 +3578,7 @@
         "default"
       ],
       "optimizationBailout": [
-        "ModuleConcatenation bailout: Cannot concat with ./src/scripts/globals/config.js because of ./src/scripts/views/pages/favorite.js"
+        "ModuleConcatenation bailout: Cannot concat with ./src/scripts/globals/config.js because of ./src/scripts/views/templates/template-creator.js"
       ],
       "depth": 4,
       "modules": [
@@ -4111,7 +4111,7 @@
       "name": "./src/scripts/views/pages/list-restaurant.js",
       "index": 15,
       "index2": 18,
-      "size": 3215,
+      "size": 3213,
       "cacheable": true,
       "built": true,
       "optional": false,
