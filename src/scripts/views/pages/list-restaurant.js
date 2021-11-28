@@ -1,6 +1,5 @@
 import RestaurantDbSource from '../../data/restaurantdb-source'
 import { createRestaurantItemTemplate } from '../templates/template-creator'
-import img from '../../../../dist/images/'
 
 const ListRestaurant = {
   async render () {
