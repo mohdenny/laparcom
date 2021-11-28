@@ -1,10 +1,12 @@
 {
-  "errors": [],
+  "errors": [
+    "./src/scripts/views/pages/list-restaurant.js\nModule not found: Error: Can't resolve '../../../../dist/images/' in 'D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\pages'\nresolve '../../../../dist/images/' in 'D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\pages'\n  Parsed request is a directory\n  using description file: D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\package.json (relative path: ./src/scripts/views/pages)\n    Field 'browser' doesn't contain a valid alias configuration\n    using description file: D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\package.json (relative path: ./dist/images)\n      as directory\n        existing directory\n          using path: D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\dist\\images\\index\n            using description file: D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\package.json (relative path: ./dist/images/index)\n              no extension\n                Field 'browser' doesn't contain a valid alias configuration\n                D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\dist\\images\\index doesn't exist\n              .wasm\n                Field 'browser' doesn't contain a valid alias configuration\n                D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\dist\\images\\index.wasm doesn't exist\n              .mjs\n                Field 'browser' doesn't contain a valid alias configuration\n                D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\dist\\images\\index.mjs doesn't exist\n              .js\n                Field 'browser' doesn't contain a valid alias configuration\n                D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\dist\\images\\index.js doesn't exist\n              .json\n                Field 'browser' doesn't contain a valid alias configuration\n                D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\dist\\images\\index.json doesn't exist\n[D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\dist\\images\\index]\n[D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\dist\\images\\index.wasm]\n[D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\dist\\images\\index.mjs]\n[D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\dist\\images\\index.js]\n[D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\dist\\images\\index.json]\n @ ./src/scripts/views/pages/list-restaurant.js 7:0-43\n @ ./src/scripts/routes/routes.js\n @ ./src/scripts/views/app.js\n @ ./src/scripts/index.js"
+  ],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "af69de5745643bc7d22a",
-  "time": 12429,
-  "builtAt": 1638117866701,
+  "hash": "189dfd97af30a4efe3d3",
+  "time": 10790,
+  "builtAt": 1638118552527,
   "publicPath": "",
   "outputPath": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\dist",
   "assetsByChunkName": {
@@ -24,7 +26,7 @@
         "defaultVendors~main~678f84af"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "1.bundle.js",
@@ -36,11 +38,11 @@
         "defaultVendors~main~d939e436"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "3.bundle.js",
-      "size": 11718,
+      "size": 11688,
       "chunks": [
         3
       ],
@@ -48,11 +50,11 @@
         "main~3d9b8e9e"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "bundle.js",
-      "size": 33350,
+      "size": 33598,
       "chunks": [
         2
       ],
@@ -60,134 +62,116 @@
         "main~29d6ecf2"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "favicon.png",
-      "size": 2487,
+      "size": 6234,
       "chunks": [],
       "chunkNames": [],
       "info": {
         "copied": true,
         "sourceFilename": "src/public/favicon.png"
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "icons/icon-128x128.png",
-      "size": 1058,
+      "size": 1699,
       "chunks": [],
       "chunkNames": [],
       "info": {
         "copied": true,
         "sourceFilename": "src/public/icons/icon-128x128.png"
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "icons/icon-144x144.png",
-      "size": 2543,
+      "size": 3091,
       "chunks": [],
       "chunkNames": [],
       "info": {
         "copied": true,
         "sourceFilename": "src/public/icons/icon-144x144.png"
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "icons/icon-152x152.png",
-      "size": 1115,
+      "size": 1865,
       "chunks": [],
       "chunkNames": [],
       "info": {
         "copied": true,
         "sourceFilename": "src/public/icons/icon-152x152.png"
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "icons/icon-192x192.png",
-      "size": 1429,
+      "size": 2463,
       "chunks": [],
       "chunkNames": [],
       "info": {
         "copied": true,
         "sourceFilename": "src/public/icons/icon-192x192.png"
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "icons/icon-384x384.png",
-      "size": 9070,
+      "size": 11511,
       "chunks": [],
       "chunkNames": [],
       "info": {
         "copied": true,
         "sourceFilename": "src/public/icons/icon-384x384.png"
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "icons/icon-512x512.png",
-      "size": 2515,
+      "size": 5193,
       "chunks": [],
       "chunkNames": [],
       "info": {
         "copied": true,
         "sourceFilename": "src/public/icons/icon-512x512.png"
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "icons/icon-72x72.png",
-      "size": 627,
+      "size": 925,
       "chunks": [],
       "chunkNames": [],
       "info": {
         "copied": true,
         "sourceFilename": "src/public/icons/icon-72x72.png"
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "icons/icon-96x96.png",
-      "size": 740,
+      "size": 1217,
       "chunks": [],
       "chunkNames": [],
       "info": {
         "copied": true,
         "sourceFilename": "src/public/icons/icon-96x96.png"
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "images/src/public/images/default.jpg",
-      "size": 1651,
+      "size": 2248,
       "chunks": [],
       "chunkNames": [],
       "info": {
         "sourceFilename": "src/public/images/default.jpg"
       },
-      "emitted": true
-    },
-    {
-      "name": "images/src/public/images/hero-image.jpg",
-      "size": 76715,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {
-        "sourceFilename": "src/public/images/hero-image.jpg"
-      },
-      "emitted": true
-    },
-    {
-      "name": "index.html",
-      "size": 1302,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "manifest.json",
@@ -198,15 +182,15 @@
         "copied": true,
         "sourceFilename": "src/public/manifest.json"
       },
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "sw.js",
-      "size": 12666,
+      "size": 12125,
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": true
+      "emitted": false
     }
   ],
   "filteredAssets": 0,
@@ -403,8 +387,8 @@
           "id": 16,
           "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\serviceworker-webpack-plugin\\lib\\runtime.js",
           "name": "./node_modules/serviceworker-webpack-plugin/lib/runtime.js",
-          "index": 33,
-          "index2": 31,
+          "index": 32,
+          "index2": 30,
           "size": 569,
           "cacheable": true,
           "built": true,
@@ -434,7 +418,7 @@
           "assets": [],
           "reasons": [
             {
-              "moduleId": 28,
+              "moduleId": 27,
               "moduleIdentifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\index.js a73632f1f11e927c1c11702b59eee252",
               "module": "./src/scripts/index.js + 1 modules",
               "moduleName": "./src/scripts/index.js + 1 modules",
@@ -443,7 +427,7 @@
               "loc": "5:0-63"
             },
             {
-              "moduleId": 28,
+              "moduleId": 27,
               "moduleIdentifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\index.js a73632f1f11e927c1c11702b59eee252",
               "module": "./src/scripts/index.js + 1 modules",
               "moduleName": "./src/scripts/index.js + 1 modules",
@@ -491,7 +475,7 @@
           "assets": [],
           "reasons": [
             {
-              "moduleId": 28,
+              "moduleId": 27,
               "moduleIdentifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\index.js a73632f1f11e927c1c11702b59eee252",
               "module": "./src/scripts/index.js + 1 modules",
               "moduleName": "./src/scripts/index.js + 1 modules",
@@ -591,7 +575,7 @@
               "loc": "18:4-34"
             },
             {
-              "moduleId": 28,
+              "moduleId": 27,
               "moduleIdentifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\index.js a73632f1f11e927c1c11702b59eee252",
               "module": "./src/scripts/index.js + 1 modules",
               "moduleName": "./src/scripts/index.js + 1 modules",
@@ -676,8 +660,8 @@
           "id": 18,
           "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\idb\\build\\esm\\index.js 02aaf75e74099608f8a65b4d1784a142",
           "name": "./node_modules/idb/build/esm/index.js + 1 modules",
-          "index": 27,
-          "index2": 23,
+          "index": 26,
+          "index2": 22,
           "size": 13566,
           "cacheable": true,
           "built": true,
@@ -730,8 +714,8 @@
               "id": null,
               "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\idb\\build\\esm\\index.js",
               "name": "./node_modules/idb/build/esm/index.js",
-              "index": 27,
-              "index2": 23,
+              "index": 26,
+              "index2": 22,
               "size": 6163,
               "cacheable": true,
               "built": true,
@@ -808,8 +792,8 @@
               "id": null,
               "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\idb\\build\\esm\\wrap-idb-value.js",
               "name": "./node_modules/idb/build/esm/wrap-idb-value.js",
-              "index": 28,
-              "index2": 22,
+              "index": 27,
+              "index2": 21,
               "size": 7403,
               "cacheable": true,
               "built": true,
@@ -985,7 +969,7 @@
           "assets": [],
           "reasons": [
             {
-              "moduleId": 28,
+              "moduleId": 27,
               "moduleIdentifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\index.js a73632f1f11e927c1c11702b59eee252",
               "module": "./src/scripts/index.js + 1 modules",
               "moduleName": "./src/scripts/index.js + 1 modules",
@@ -1019,14 +1003,14 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 46941,
+      "size": 47067,
       "names": [
         "main~29d6ecf2"
       ],
       "files": [
         "bundle.js"
       ],
-      "hash": "e8ee28083bb38010983f",
+      "hash": "48b7bc0597ea88f204a9",
       "siblings": [
         0,
         1,
@@ -1042,7 +1026,7 @@
           "name": "./src/scripts/views/templates/template-creator.js",
           "index": 19,
           "index2": 16,
-          "size": 6249,
+          "size": 6341,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1195,8 +1179,8 @@
           "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\pages\\list-restaurant.js",
           "name": "./src/scripts/views/pages/list-restaurant.js",
           "index": 15,
-          "index2": 18,
-          "size": 3213,
+          "index2": 17,
+          "size": 3247,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1271,7 +1255,7 @@
           "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\app.js",
           "name": "./src/scripts/views/app.js",
           "index": 11,
-          "index2": 30,
+          "index2": 29,
           "size": 3012,
           "cacheable": true,
           "built": true,
@@ -1296,7 +1280,7 @@
           "assets": [],
           "reasons": [
             {
-              "moduleId": 28,
+              "moduleId": 27,
               "moduleIdentifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\index.js a73632f1f11e927c1c11702b59eee252",
               "module": "./src/scripts/index.js + 1 modules",
               "moduleName": "./src/scripts/index.js + 1 modules",
@@ -1305,7 +1289,7 @@
               "loc": "6:0-30"
             },
             {
-              "moduleId": 28,
+              "moduleId": 27,
               "moduleIdentifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\index.js a73632f1f11e927c1c11702b59eee252",
               "module": "./src/scripts/index.js + 1 modules",
               "moduleName": "./src/scripts/index.js + 1 modules",
@@ -1327,8 +1311,8 @@
           "id": 13,
           "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\pages\\detail.js",
           "name": "./src/scripts/views/pages/detail.js",
-          "index": 29,
-          "index2": 28,
+          "index": 28,
+          "index2": 27,
           "size": 3350,
           "cacheable": true,
           "built": true,
@@ -1394,8 +1378,8 @@
           "id": 17,
           "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\pages\\favorite.js ca625d5054ba9123fc800b13f43d0e87",
           "name": "./src/scripts/views/pages/favorite.js + 2 modules",
-          "index": 22,
-          "index2": 25,
+          "index": 21,
+          "index2": 24,
           "size": 13244,
           "cacheable": true,
           "built": true,
@@ -1448,8 +1432,8 @@
               "id": null,
               "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\pages\\favorite.js",
               "name": "./src/scripts/views/pages/favorite.js",
-              "index": 22,
-              "index2": 25,
+              "index": 21,
+              "index2": 24,
               "size": 2534,
               "cacheable": true,
               "built": true,
@@ -1513,8 +1497,8 @@
               "id": null,
               "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\component\\fav-list.js",
               "name": "./src/scripts/views/component/fav-list.js",
-              "index": 23,
-              "index2": 20,
+              "index": 22,
+              "index2": 19,
               "size": 5046,
               "cacheable": true,
               "built": true,
@@ -1570,8 +1554,8 @@
               "id": null,
               "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\component\\post-item.js",
               "name": "./src/scripts/views/component/post-item.js",
-              "index": 24,
-              "index2": 19,
+              "index": 23,
+              "index2": 18,
               "size": 5649,
               "cacheable": true,
               "built": true,
@@ -1661,7 +1645,7 @@
           "assets": [],
           "reasons": [
             {
-              "moduleId": 28,
+              "moduleId": 27,
               "moduleIdentifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\index.js a73632f1f11e927c1c11702b59eee252",
               "module": "./src/scripts/index.js + 1 modules",
               "moduleName": "./src/scripts/index.js + 1 modules",
@@ -1758,7 +1742,7 @@
           "assets": [],
           "reasons": [
             {
-              "moduleId": 28,
+              "moduleId": 27,
               "moduleIdentifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\index.js a73632f1f11e927c1c11702b59eee252",
               "module": "./src/scripts/index.js + 1 modules",
               "moduleName": "./src/scripts/index.js + 1 modules",
@@ -1826,11 +1810,11 @@
           "depth": 2
         },
         {
-          "id": 27,
+          "id": 26,
           "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\component\\empty-favorite.js",
           "name": "./src/scripts/views/component/empty-favorite.js",
-          "index": 25,
-          "index2": 21,
+          "index": 24,
+          "index2": 20,
           "size": 4910,
           "cacheable": true,
           "built": true,
@@ -1904,14 +1888,14 @@
       "rendered": true,
       "initial": true,
       "entry": false,
-      "size": 24735,
+      "size": 24678,
       "names": [
         "main~3d9b8e9e"
       ],
       "files": [
         "3.bundle.js"
       ],
-      "hash": "37a48b03e4bb8da03c22",
+      "hash": "dfc22ec3dbb2e15b6d9a",
       "siblings": [
         0,
         1,
@@ -1935,9 +1919,9 @@
           "chunks": [
             3
           ],
-          "issuer": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\templates\\template-creator.js",
-          "issuerId": 1,
-          "issuerName": "./src/scripts/views/templates/template-creator.js",
+          "issuer": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\data\\restaurantdb-source.js",
+          "issuerId": null,
+          "issuerName": "./src/scripts/data/restaurantdb-source.js",
           "issuerPath": [
             {
               "id": null,
@@ -1960,9 +1944,9 @@
               "name": "./src/scripts/views/pages/list-restaurant.js"
             },
             {
-              "id": 1,
-              "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\templates\\template-creator.js",
-              "name": "./src/scripts/views/templates/template-creator.js"
+              "id": null,
+              "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\data\\restaurantdb-source.js",
+              "name": "./src/scripts/data/restaurantdb-source.js"
             }
           ],
           "failed": false,
@@ -2200,7 +2184,7 @@
             "default"
           ],
           "optimizationBailout": [
-            "ModuleConcatenation bailout: Cannot concat with ./src/scripts/globals/config.js because of ./src/scripts/views/templates/template-creator.js"
+            "ModuleConcatenation bailout: Cannot concat with ./src/scripts/globals/config.js because of ./src/scripts/views/pages/favorite.js"
           ],
           "depth": 4,
           "modules": [
@@ -2410,8 +2394,8 @@
           "id": 3,
           "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\data\\favorite-restaurantdb.js",
           "name": "./src/scripts/data/favorite-restaurantdb.js",
-          "index": 26,
-          "index2": 24,
+          "index": 25,
+          "index2": 23,
           "size": 3973,
           "cacheable": true,
           "built": true,
@@ -2661,7 +2645,7 @@
           "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\routes\\routes.js",
           "name": "./src/scripts/routes/routes.js",
           "index": 14,
-          "index2": 29,
+          "index2": 28,
           "size": 321,
           "cacheable": true,
           "built": true,
@@ -2722,8 +2706,8 @@
           "id": 14,
           "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\utils\\form-review-initiator.js",
           "name": "./src/scripts/utils/form-review-initiator.js",
-          "index": 30,
-          "index2": 26,
+          "index": 29,
+          "index2": 25,
           "size": 6072,
           "cacheable": true,
           "built": true,
@@ -2794,8 +2778,8 @@
           "id": 15,
           "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\utils\\like-button-initiator.js",
           "name": "./src/scripts/utils/like-button-initiator.js",
-          "index": 31,
-          "index2": 27,
+          "index": 30,
+          "index2": 26,
           "size": 4792,
           "cacheable": true,
           "built": true,
@@ -2919,8 +2903,8 @@
               "module": "./src/scripts/views/templates/template-creator.js",
               "moduleName": "./src/scripts/views/templates/template-creator.js",
               "type": "harmony side effect evaluation",
-              "userRequest": "../../../public/./images/default.jpg",
-              "loc": "2:0-55"
+              "userRequest": "../../../public/images/default.jpg",
+              "loc": "2:0-53"
             }
           ],
           "usedExports": false,
@@ -2931,74 +2915,11 @@
           "depth": 5
         },
         {
-          "id": 26,
-          "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\file-loader\\dist\\cjs.js??ref--5-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\public\\images\\hero-image.jpg",
-          "name": "./src/public/images/hero-image.jpg",
-          "index": 21,
-          "index2": 17,
-          "size": 57,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            3
-          ],
-          "issuer": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\pages\\list-restaurant.js",
-          "issuerId": 7,
-          "issuerName": "./src/scripts/views/pages/list-restaurant.js",
-          "issuerPath": [
-            {
-              "id": null,
-              "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\index.js",
-              "name": "./src/scripts/index.js"
-            },
-            {
-              "id": 10,
-              "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\app.js",
-              "name": "./src/scripts/views/app.js"
-            },
-            {
-              "id": 12,
-              "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\routes\\routes.js",
-              "name": "./src/scripts/routes/routes.js"
-            },
-            {
-              "id": 7,
-              "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\pages\\list-restaurant.js",
-              "name": "./src/scripts/views/pages/list-restaurant.js"
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "assets": [
-            "images/src/public/images/hero-image.jpg"
-          ],
-          "reasons": [
-            {
-              "moduleId": 7,
-              "moduleIdentifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\pages\\list-restaurant.js",
-              "module": "./src/scripts/views/pages/list-restaurant.js",
-              "moduleName": "./src/scripts/views/pages/list-restaurant.js",
-              "type": "harmony side effect evaluation",
-              "userRequest": "../../../public/images/hero-image.jpg",
-              "loc": "7:0-56"
-            }
-          ],
-          "usedExports": false,
-          "providedExports": [
-            "default"
-          ],
-          "optimizationBailout": [],
-          "depth": 4
-        },
-        {
-          "id": 28,
+          "id": 27,
           "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\index.js a73632f1f11e927c1c11702b59eee252",
           "name": "./src/scripts/index.js + 1 modules",
           "index": 0,
-          "index2": 33,
+          "index2": 32,
           "size": 2208,
           "cacheable": true,
           "built": true,
@@ -3039,7 +2960,7 @@
               "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\index.js",
               "name": "./src/scripts/index.js",
               "index": 0,
-              "index2": 33,
+              "index2": 32,
               "size": 589,
               "cacheable": true,
               "built": true,
@@ -3076,8 +2997,8 @@
               "id": null,
               "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\utils\\sw-register.js",
               "name": "./src/scripts/utils/sw-register.js",
-              "index": 32,
-              "index2": 32,
+              "index": 31,
+              "index2": 31,
               "size": 1584,
               "cacheable": true,
               "built": true,
@@ -3159,9 +3080,9 @@
       "chunks": [
         3
       ],
-      "issuer": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\templates\\template-creator.js",
-      "issuerId": 1,
-      "issuerName": "./src/scripts/views/templates/template-creator.js",
+      "issuer": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\data\\restaurantdb-source.js",
+      "issuerId": null,
+      "issuerName": "./src/scripts/data/restaurantdb-source.js",
       "issuerPath": [
         {
           "id": null,
@@ -3184,9 +3105,9 @@
           "name": "./src/scripts/views/pages/list-restaurant.js"
         },
         {
-          "id": 1,
-          "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\templates\\template-creator.js",
-          "name": "./src/scripts/views/templates/template-creator.js"
+          "id": null,
+          "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\data\\restaurantdb-source.js",
+          "name": "./src/scripts/data/restaurantdb-source.js"
         }
       ],
       "failed": false,
@@ -3345,7 +3266,7 @@
       "name": "./src/scripts/views/templates/template-creator.js",
       "index": 19,
       "index2": 16,
-      "size": 6249,
+      "size": 6341,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -3578,7 +3499,7 @@
         "default"
       ],
       "optimizationBailout": [
-        "ModuleConcatenation bailout: Cannot concat with ./src/scripts/globals/config.js because of ./src/scripts/views/templates/template-creator.js"
+        "ModuleConcatenation bailout: Cannot concat with ./src/scripts/globals/config.js because of ./src/scripts/views/pages/favorite.js"
       ],
       "depth": 4,
       "modules": [
@@ -3788,8 +3709,8 @@
       "id": 3,
       "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\data\\favorite-restaurantdb.js",
       "name": "./src/scripts/data/favorite-restaurantdb.js",
-      "index": 26,
-      "index2": 24,
+      "index": 25,
+      "index2": 23,
       "size": 3973,
       "cacheable": true,
       "built": true,
@@ -4089,7 +4010,7 @@
           "loc": "18:4-34"
         },
         {
-          "moduleId": 28,
+          "moduleId": 27,
           "moduleIdentifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\index.js a73632f1f11e927c1c11702b59eee252",
           "module": "./src/scripts/index.js + 1 modules",
           "moduleName": "./src/scripts/index.js + 1 modules",
@@ -4110,8 +4031,8 @@
       "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\pages\\list-restaurant.js",
       "name": "./src/scripts/views/pages/list-restaurant.js",
       "index": 15,
-      "index2": 18,
-      "size": 3213,
+      "index2": 17,
+      "size": 3247,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -4311,7 +4232,7 @@
       "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\app.js",
       "name": "./src/scripts/views/app.js",
       "index": 11,
-      "index2": 30,
+      "index2": 29,
       "size": 3012,
       "cacheable": true,
       "built": true,
@@ -4336,7 +4257,7 @@
       "assets": [],
       "reasons": [
         {
-          "moduleId": 28,
+          "moduleId": 27,
           "moduleIdentifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\index.js a73632f1f11e927c1c11702b59eee252",
           "module": "./src/scripts/index.js + 1 modules",
           "moduleName": "./src/scripts/index.js + 1 modules",
@@ -4345,7 +4266,7 @@
           "loc": "6:0-30"
         },
         {
-          "moduleId": 28,
+          "moduleId": 27,
           "moduleIdentifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\index.js a73632f1f11e927c1c11702b59eee252",
           "module": "./src/scripts/index.js + 1 modules",
           "moduleName": "./src/scripts/index.js + 1 modules",
@@ -4430,7 +4351,7 @@
       "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\routes\\routes.js",
       "name": "./src/scripts/routes/routes.js",
       "index": 14,
-      "index2": 29,
+      "index2": 28,
       "size": 321,
       "cacheable": true,
       "built": true,
@@ -4491,8 +4412,8 @@
       "id": 13,
       "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\pages\\detail.js",
       "name": "./src/scripts/views/pages/detail.js",
-      "index": 29,
-      "index2": 28,
+      "index": 28,
+      "index2": 27,
       "size": 3350,
       "cacheable": true,
       "built": true,
@@ -4558,8 +4479,8 @@
       "id": 14,
       "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\utils\\form-review-initiator.js",
       "name": "./src/scripts/utils/form-review-initiator.js",
-      "index": 30,
-      "index2": 26,
+      "index": 29,
+      "index2": 25,
       "size": 6072,
       "cacheable": true,
       "built": true,
@@ -4630,8 +4551,8 @@
       "id": 15,
       "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\utils\\like-button-initiator.js",
       "name": "./src/scripts/utils/like-button-initiator.js",
-      "index": 31,
-      "index2": 27,
+      "index": 30,
+      "index2": 26,
       "size": 4792,
       "cacheable": true,
       "built": true,
@@ -4702,8 +4623,8 @@
       "id": 16,
       "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\serviceworker-webpack-plugin\\lib\\runtime.js",
       "name": "./node_modules/serviceworker-webpack-plugin/lib/runtime.js",
-      "index": 33,
-      "index2": 31,
+      "index": 32,
+      "index2": 30,
       "size": 569,
       "cacheable": true,
       "built": true,
@@ -4733,7 +4654,7 @@
       "assets": [],
       "reasons": [
         {
-          "moduleId": 28,
+          "moduleId": 27,
           "moduleIdentifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\index.js a73632f1f11e927c1c11702b59eee252",
           "module": "./src/scripts/index.js + 1 modules",
           "moduleName": "./src/scripts/index.js + 1 modules",
@@ -4742,7 +4663,7 @@
           "loc": "5:0-63"
         },
         {
-          "moduleId": 28,
+          "moduleId": 27,
           "moduleIdentifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\index.js a73632f1f11e927c1c11702b59eee252",
           "module": "./src/scripts/index.js + 1 modules",
           "moduleName": "./src/scripts/index.js + 1 modules",
@@ -4764,8 +4685,8 @@
       "id": 17,
       "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\pages\\favorite.js ca625d5054ba9123fc800b13f43d0e87",
       "name": "./src/scripts/views/pages/favorite.js + 2 modules",
-      "index": 22,
-      "index2": 25,
+      "index": 21,
+      "index2": 24,
       "size": 13244,
       "cacheable": true,
       "built": true,
@@ -4818,8 +4739,8 @@
           "id": null,
           "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\pages\\favorite.js",
           "name": "./src/scripts/views/pages/favorite.js",
-          "index": 22,
-          "index2": 25,
+          "index": 21,
+          "index2": 24,
           "size": 2534,
           "cacheable": true,
           "built": true,
@@ -4883,8 +4804,8 @@
           "id": null,
           "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\component\\fav-list.js",
           "name": "./src/scripts/views/component/fav-list.js",
-          "index": 23,
-          "index2": 20,
+          "index": 22,
+          "index2": 19,
           "size": 5046,
           "cacheable": true,
           "built": true,
@@ -4940,8 +4861,8 @@
           "id": null,
           "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\component\\post-item.js",
           "name": "./src/scripts/views/component/post-item.js",
-          "index": 24,
-          "index2": 19,
+          "index": 23,
+          "index2": 18,
           "size": 5649,
           "cacheable": true,
           "built": true,
@@ -5005,8 +4926,8 @@
       "id": 18,
       "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\idb\\build\\esm\\index.js 02aaf75e74099608f8a65b4d1784a142",
       "name": "./node_modules/idb/build/esm/index.js + 1 modules",
-      "index": 27,
-      "index2": 23,
+      "index": 26,
+      "index2": 22,
       "size": 13566,
       "cacheable": true,
       "built": true,
@@ -5059,8 +4980,8 @@
           "id": null,
           "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\idb\\build\\esm\\index.js",
           "name": "./node_modules/idb/build/esm/index.js",
-          "index": 27,
-          "index2": 23,
+          "index": 26,
+          "index2": 22,
           "size": 6163,
           "cacheable": true,
           "built": true,
@@ -5137,8 +5058,8 @@
           "id": null,
           "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\idb\\build\\esm\\wrap-idb-value.js",
           "name": "./node_modules/idb/build/esm/wrap-idb-value.js",
-          "index": 28,
-          "index2": 22,
+          "index": 27,
+          "index2": 21,
           "size": 7403,
           "cacheable": true,
           "built": true,
@@ -5314,7 +5235,7 @@
       "assets": [],
       "reasons": [
         {
-          "moduleId": 28,
+          "moduleId": 27,
           "moduleIdentifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\index.js a73632f1f11e927c1c11702b59eee252",
           "module": "./src/scripts/index.js + 1 modules",
           "moduleName": "./src/scripts/index.js + 1 modules",
@@ -5360,7 +5281,7 @@
       "assets": [],
       "reasons": [
         {
-          "moduleId": 28,
+          "moduleId": 27,
           "moduleIdentifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\index.js a73632f1f11e927c1c11702b59eee252",
           "module": "./src/scripts/index.js + 1 modules",
           "moduleName": "./src/scripts/index.js + 1 modules",
@@ -5457,7 +5378,7 @@
       "assets": [],
       "reasons": [
         {
-          "moduleId": 28,
+          "moduleId": 27,
           "moduleIdentifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\index.js a73632f1f11e927c1c11702b59eee252",
           "module": "./src/scripts/index.js + 1 modules",
           "moduleName": "./src/scripts/index.js + 1 modules",
@@ -5554,7 +5475,7 @@
       "assets": [],
       "reasons": [
         {
-          "moduleId": 28,
+          "moduleId": 27,
           "moduleIdentifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\index.js a73632f1f11e927c1c11702b59eee252",
           "module": "./src/scripts/index.js + 1 modules",
           "moduleName": "./src/scripts/index.js + 1 modules",
@@ -5627,8 +5548,8 @@
           "module": "./src/scripts/views/templates/template-creator.js",
           "moduleName": "./src/scripts/views/templates/template-creator.js",
           "type": "harmony side effect evaluation",
-          "userRequest": "../../../public/./images/default.jpg",
-          "loc": "2:0-55"
+          "userRequest": "../../../public/images/default.jpg",
+          "loc": "2:0-53"
         }
       ],
       "usedExports": false,
@@ -5640,73 +5561,10 @@
     },
     {
       "id": 26,
-      "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\file-loader\\dist\\cjs.js??ref--5-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\public\\images\\hero-image.jpg",
-      "name": "./src/public/images/hero-image.jpg",
-      "index": 21,
-      "index2": 17,
-      "size": 57,
-      "cacheable": true,
-      "built": true,
-      "optional": false,
-      "prefetched": false,
-      "chunks": [
-        3
-      ],
-      "issuer": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\pages\\list-restaurant.js",
-      "issuerId": 7,
-      "issuerName": "./src/scripts/views/pages/list-restaurant.js",
-      "issuerPath": [
-        {
-          "id": null,
-          "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\index.js",
-          "name": "./src/scripts/index.js"
-        },
-        {
-          "id": 10,
-          "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\app.js",
-          "name": "./src/scripts/views/app.js"
-        },
-        {
-          "id": 12,
-          "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\routes\\routes.js",
-          "name": "./src/scripts/routes/routes.js"
-        },
-        {
-          "id": 7,
-          "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\pages\\list-restaurant.js",
-          "name": "./src/scripts/views/pages/list-restaurant.js"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "assets": [
-        "images/src/public/images/hero-image.jpg"
-      ],
-      "reasons": [
-        {
-          "moduleId": 7,
-          "moduleIdentifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\pages\\list-restaurant.js",
-          "module": "./src/scripts/views/pages/list-restaurant.js",
-          "moduleName": "./src/scripts/views/pages/list-restaurant.js",
-          "type": "harmony side effect evaluation",
-          "userRequest": "../../../public/images/hero-image.jpg",
-          "loc": "7:0-56"
-        }
-      ],
-      "usedExports": false,
-      "providedExports": [
-        "default"
-      ],
-      "optimizationBailout": [],
-      "depth": 4
-    },
-    {
-      "id": 27,
       "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\views\\component\\empty-favorite.js",
       "name": "./src/scripts/views/component/empty-favorite.js",
-      "index": 25,
-      "index2": 21,
+      "index": 24,
+      "index2": 20,
       "size": 4910,
       "cacheable": true,
       "built": true,
@@ -5763,11 +5621,11 @@
       "depth": 4
     },
     {
-      "id": 28,
+      "id": 27,
       "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\index.js a73632f1f11e927c1c11702b59eee252",
       "name": "./src/scripts/index.js + 1 modules",
       "index": 0,
-      "index2": 33,
+      "index2": 32,
       "size": 2208,
       "cacheable": true,
       "built": true,
@@ -5808,7 +5666,7 @@
           "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\index.js",
           "name": "./src/scripts/index.js",
           "index": 0,
-          "index2": 33,
+          "index2": 32,
           "size": 589,
           "cacheable": true,
           "built": true,
@@ -5845,8 +5703,8 @@
           "id": null,
           "identifier": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\node_modules\\babel-loader\\lib\\index.js??ref--6-0!D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\src\\scripts\\utils\\sw-register.js",
           "name": "./src/scripts/utils/sw-register.js",
-          "index": 32,
-          "index2": 32,
+          "index": 31,
+          "index2": 31,
           "size": 1584,
           "cacheable": true,
           "built": true,
