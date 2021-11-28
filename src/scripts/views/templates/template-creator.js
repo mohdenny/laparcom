@@ -1,5 +1,5 @@
 import CONFIG from '../../globals/config'
-import img from '../../../public/./images/default.jpg'
+import img from '../../../public/images/default.jpg'
 
 const createRestaurantDetailTemplate = (restaurant) => `
     <h2 class="restaurant__title">${restaurant.name}</h2>
@@ -35,7 +35,7 @@ const createRestaurantDetailTemplate = (restaurant) => `
                         <picture>
                             <source media="(max-width: 200px)" srcset="./images/default-200.jpg">
                             <source media="(max-width: 300px)" srcset="./images/default-300.jpg">
-                            <img src="images/default-400.jpg" alt="consumer photo profile">
+                            <img src="./dist/images/default-400.jpg" alt="consumer photo profile">
                         </picture>
                     </div>
                     <div class="review-body">
