@@ -8,8 +8,6 @@ const ListRestaurant = {
       <div class="wrapper">
         <div class="hero-image">
           <picture>
-            // <source media="(max-width: 600px)" srcset="./images/hero-image-600.jpg">
-            // <source media="(max-width: 1000px)" srcset="./images/hero-image-1000.jpg">
             <img class="gfg hero" src='${img}' alt="hero laparcom"></img>
           </picture>
 

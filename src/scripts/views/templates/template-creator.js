@@ -33,8 +33,6 @@ const createRestaurantDetailTemplate = (restaurant) => `
                 <div class="review-container">
                     <div class="review-photo-profile">
                         <picture>
-                            // <source media="(max-width: 200px)" srcset="/images/src/public/images/default-200.jpg">
-                            // <source media="(max-width: 300px)" srcset="/images/src/public/images/default-300.jpg">
                             <img src="${img}" alt="consumer photo profile">
                         </picture>
                     </div>
@@ -102,8 +100,6 @@ const createReviewTemplate = (reviews) => {
   html.innerHTML = `
             <div class="review-photo-profile">
                 <picture>
-                    <source media="(max-width: 200px)" srcset="/images/src/public/images/default-200.jpg">
-                    <source media="(max-width: 300px)" srcset="/images/src/public/images/default-300.jpg">
                     <img src="/images/src/public/images/default-400.jpg" alt="consumer photo profile">
                 </picture>
             </div>
