@@ -35,7 +35,7 @@ const createRestaurantDetailTemplate = (restaurant) => `
                         <picture>
                             <source media="(max-width: 200px)" srcset="images/default-200.jpg">
                             <source media="(max-width: 300px)" srcset="images/default-300.jpg">
-                            <img src="images/default-400.jpg" alt="consumer photo profile">
+                            <img src="${img}" alt="consumer photo profile">
                         </picture>
                     </div>
                     <div class="review-body">
