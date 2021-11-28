@@ -1,5 +1,6 @@
 import RestaurantDbSource from '../../data/restaurantdb-source'
 import { createRestaurantItemTemplate } from '../templates/template-creator'
+import img from '../../../public/images/hero-image-1200.jpg'
 
 const ListRestaurant = {
   async render () {
@@ -9,7 +10,7 @@ const ListRestaurant = {
           <picture>
             <source media="(max-width: 600px)" srcset="images/hero-image-600.jpg">
             <source media="(max-width: 1000px)" srcset="images/hero-image-1000.jpg">
-            <img class="gfg hero" src='images/hero-image-1200.jpg' alt="hero laparcom"></img>
+            <img class="gfg hero" src='${img}' alt="hero laparcom"></img>
           </picture>
 
           <div class="hero-text">
