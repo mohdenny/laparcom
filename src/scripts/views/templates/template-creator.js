@@ -1,5 +1,5 @@
 import CONFIG from '../../globals/config'
-import img from '../../../public/images/default-400.jpg'
+import img from '../../../public/images/default.jpg'
 
 const createRestaurantDetailTemplate = (restaurant) => `
     <h2 class="restaurant__title">${restaurant.name}</h2>
