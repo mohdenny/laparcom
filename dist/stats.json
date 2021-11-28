@@ -4,9 +4,9 @@
   ],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "189dfd97af30a4efe3d3",
-  "time": 10790,
-  "builtAt": 1638118552527,
+  "hash": "0c13321d256790fa86c6",
+  "time": 8322,
+  "builtAt": 1638119166059,
   "publicPath": "",
   "outputPath": "D:\\LEARNING\\DICODING\\laparcom-front-end-expert-3-deploy\\laparcom\\dist",
   "assetsByChunkName": {
@@ -54,7 +54,7 @@
     },
     {
       "name": "bundle.js",
-      "size": 33598,
+      "size": 33616,
       "chunks": [
         2
       ],
@@ -1003,14 +1003,14 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 47067,
+      "size": 47085,
       "names": [
         "main~29d6ecf2"
       ],
       "files": [
         "bundle.js"
       ],
-      "hash": "48b7bc0597ea88f204a9",
+      "hash": "b3eead45d2e517fc15e4",
       "siblings": [
         0,
         1,
@@ -1026,7 +1026,7 @@
           "name": "./src/scripts/views/templates/template-creator.js",
           "index": 19,
           "index2": 16,
-          "size": 6341,
+          "size": 6353,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1180,7 +1180,7 @@
           "name": "./src/scripts/views/pages/list-restaurant.js",
           "index": 15,
           "index2": 17,
-          "size": 3247,
+          "size": 3253,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -3266,7 +3266,7 @@
       "name": "./src/scripts/views/templates/template-creator.js",
       "index": 19,
       "index2": 16,
-      "size": 6341,
+      "size": 6353,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -4032,7 +4032,7 @@
       "name": "./src/scripts/views/pages/list-restaurant.js",
       "index": 15,
       "index2": 17,
-      "size": 3247,
+      "size": 3253,
       "cacheable": true,
       "built": true,
       "optional": false,
